@@ -1,0 +1,4 @@
+#write shell script to print welcome message with current userid
+
+echo "Welcome $(whoami)";
+

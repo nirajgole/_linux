@@ -1,0 +1,10 @@
+#Accept three number and display in descending order
+
+
+echo "Enter first number ";
+read no1;
+
+echo "Enter Second number ";
+read no2;
+
+

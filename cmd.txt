@@ -1,0 +1,1002 @@
+dacstudent@KDTDACWS-06:~$ history
+  123  cat .file5
+  124  head -n 2 file3
+  125  cat file3
+  126  cat file22
+  127  cat >> file22
+  128  head -n 2 file22
+  129  cat file22
+  130  tail -n 2 file22
+  131  head -n+2 file22
+  132  head -n -2 file22
+  133  tail -n -2 file22
+  134  tail -n +2 file22
+  135  head -n 4 file22 |tail -n 2
+  136  rmdir
+  137  whatis rmdir
+  138  rmdir dir10/
+  139  ls
+  140  rm file4
+  141  ls
+  142  mkdir dir10
+  143  ls
+  144  cp f* dir10
+  145  ls dir10/
+  146  rm file*
+  147  ls
+  148  ls dir10
+  149  rm -r dir10
+  150  ls
+  151  ls dir10
+  152  date
+  153  cal
+  154  cal 
+  155  cal 1870
+  156  cal 8 1997
+  157  date -s "15 aug 1994"
+  158  date --set= "15 aug 1994 18:00:00"
+  159  man date
+  160  date --set="STRING"
+  161  #date --set="STRING"
+  162  #date --set= "15 aug 1994 18:00:00"
+  163  LS
+  164  #date
+  165  date
+  166  $date --set= "15 aug 1994 18:00:00"
+  167  $date --date= "15 aug 1994 18:00:00"
+  168  $date --date= "15 aug 1994"
+  169  date --date= "15 aug 1994"
+  170  $date --date= "15 aug 1994"
+  171  clear
+  172  #date --set= "15 aug 1994 18:00:00"
+  173  cd ..
+  174  cd java
+  175  cd java\
+  176  cd Downloads/
+  177  cd ..
+  178  cd java/
+  179  clear
+  180  mkdir java
+  181  ls
+  182  rmdir java
+  183  ls
+  184  touch Hello.txt
+  185  ls 
+  186  rm Hello.txt
+  187  ls
+  188  who
+  189  whatis who
+  190  whoami
+  191  pwd 
+  192  whatis pwd
+  193  cd root/
+  194  ls
+  195  pwd
+  196  cd ..
+  197  ls
+  198  cd ../home
+  199  ls
+  200  cd ..
+  201  ls
+  202  ls -a
+  203  ls-l
+  204  ls -l
+  205  ls -l
+  206  ls -l
+  207  cd dir2/
+  208  cd dir2
+  209  ls ..dir2/
+  210  ls
+  211  pwd
+  212  cd home/
+  213  cd dacstudent/
+  214  pwd
+  215  cd dir2/
+  216  ls
+  217  cd ..
+  218  cd dir3/
+  219  ls
+  220  cd ..
+  221  cd dir3/
+  222  touch .file 10
+  223  ls
+  224  ls -a
+  225  rm file 10
+  226  rm 10
+  227  clear
+  228  touch .f
+  229  ls
+  230  ls -a
+  231  clear
+  232  rmdir dir3
+  233  rmdir
+  234  rmdir dir3/
+  235  cd ..
+  236  rmdir dir3/
+  237  rm f* 
+  238  rm f*
+  239  cd dir3/
+  240  rm f*
+  241  ls
+  242  cd..
+  243  cd ..
+  244  ls
+  245  pwd
+  246  cd ..
+  247  pwd
+  248  cd home/dacstudent
+  249  pwd
+  250  cd dir3/
+  251  cd..
+  252  cd ..
+  253  ls -l
+  254  cd dir3\
+  255  ls -l
+  256  cd ..
+  257  ls
+  258  ls | ls > ls_copy
+  259  cat ls_copy
+  260  ls > lsco
+  261  cat ls
+  262  cat lsco
+  263  cat > file1
+  264  cp file1 file2
+  265  cat file2
+  266  who
+  267  whoami
+  268  pwd
+  269  cd ..
+  270  pwd
+  271  cd ..
+  272  pwd
+  273  cd home/dacstudent/
+  274  pwd
+  275  ls
+  276  cd home/dacstudent/Downloads/
+  277  cd Downloads/
+  278  cd ..
+  279  nl file1
+  280  pwd
+  281  cat >> file1
+  282  cat file1
+  283  head -n 5 file1
+  284  tail -n 5 file1
+  285  pwd
+  286  mv file1 f
+  287  ls
+  288  cat f
+  289  mv dir1 d1
+  290  ls
+  291  cat d1
+  292  cd d1
+  293  ls
+  294  cd ..
+  295  man copy
+  296  man cp
+  297  cp d1 cd
+  298  cp dir1 d
+  299  pwd
+  300  cp d1 dir1
+  301  cp dir1 ..d/
+  302  cp file1 ..dir1/
+  303  ls
+  304  cp dir3 dir2
+  305  cp dir2 dir4
+  306  cp dir5 dir4
+  307  clear
+  308  pwd
+  309  cd dir2/
+  310  cp dir3 d
+  311  cp dir3 
+  312  cp dir1 dir2
+  313  cp dir1 -r dir2
+  314  cd ..
+  315  cp d1 d2
+  316  cp d1 -r  d2
+  317  clear
+  318  gedit asg1.txt
+  319  gedit asg1.sh
+  320  bash asg1.sh
+  321  gedit asg1.sh
+  322  bash asg1.sh
+  323  gedit asg1.sh
+  324  bash asg1.sh
+  325  gedit asg1.sh
+  326  gedit asg2.sh
+  327  bash asg2.sh
+  328  gedit asg2.sh
+  329  bash asg2.sh
+  330  gedit asg2.sh
+  331  bash asg2.sh
+  332  gedit asg2.sh
+  333  bash asg2.sh
+  334  gedit asg2.sh
+  335  who
+  336  whoami
+  337  who
+  338  whatis who
+  339  bash asg3.sh
+  340  whatis pwd
+  341  bash asg4.sh
+  342  bash asg5.sh
+  343  bash asg6.sh
+  344  bash classw.sh
+  345  bash classw1.sh
+  346  bash asg6.sh
+  347  bash classw1.sh
+  348  ps -eo pid,comm, %cpu,%mem --sort=%mem 
+  349  ps -eo pid,comm,%mem,%cpu
+  350  ps -eo pid,comm,%mem,%cpu --sort=%mem | head -n 10
+  351  bash classw1.sh
+  352  cl screen
+  353  cls
+  354  cl screen
+  355  bash classw1.sh
+  356  ps -eo pid,comm,%cpu,%mem --sort=-%mem
+  357  bash classw1.sh
+  358  bash asg7.sh
+  359  man sed
+  360  bash asg7.sh
+  361  whatis sed
+  362  bash asg7.sh
+  363  ps -e
+  364  ps -e | more
+  365  ps -e | less
+  366  top
+  367  bash
+  368  bash asg7.sh
+  369  history
+  370  clear
+  371  cd dir2/
+  372  touch file1.java file2.java
+  373  touch file3.java
+  374  touch file1.c file2.c file3.c
+  375  ls
+  376  mkdir cprog
+  377  mkdir java
+  378  ls
+  379  mv *.java java/
+  380  ls
+  381  ls java/
+  382  mv *.c cprog/
+  383  ls c/
+  384  ls cprog/
+  385  gedit file1.sh
+  386  bash file1.sh
+  387  ls
+  388  bash file1.sh
+  389  ls ../dir2
+  390  cd ..
+  391  ls
+  392  cd dir2/
+  393  cd java/
+  394  ls 
+  395  cd ..
+  396  ls ../d1
+  397  bash file1.sh
+  398  cd dir2/
+  399  bash file1.sh
+  400  clera
+  401  clear
+  402  poweroff
+  403  bash revese.sh
+  404  cd dir2/
+  405  bash revese.sh
+  406  cd dir2/
+  407  bash revese.sh
+  408  cd dir2/
+  409  bash revese.sh
+  410  cd dir2/
+  411  bash revese.sh
+  412  cd dir2/
+  413  bash revese.sh
+  414  whatis $
+  415  cd dir2/
+  416  bash revese.sh
+  417  cd dir2/
+  418  bash revese.sh
+  419  cd dir2/
+  420  bash revese.sh
+  421  cd dir2/
+  422  bash revese.sh
+  423  cd dir2/
+  424  bash revese.sh
+  425  cd dir2/
+  426  bash palin.sh
+  427  cd dir2/
+  428  bash palin.sh
+  429  cd dir2/
+  430  bash palin.sh
+  431  cd dir2/
+  432  bash palin.sh
+  433  cd dir2/
+  434  bash palin.sh
+  435  cd dir2/
+  436  bash palin.sh
+  437  cd dir2/
+  438  bash dymond.sh
+  439  cd dir2/
+  440  bash dymond.sh
+  441  cd dir2/
+  442  bash dymond.sh
+  443  cd dir2/
+  444  bash dymond.sh
+  445  cd dir2/
+  446  bash palin.sh
+  447  bash pyramid.sh
+  448  cd dir2/
+  449  bash dymond.sh
+  450  cd dir2/
+  451  bash dymond.sh
+  452  cd dir2/
+  453  bash dymond.sh
+  454  cd dir2/
+  455  bash dymond.sh
+  456  cd dir2/
+  457  bash dymond.sh
+  458  cd dir2/
+  459  bash dymond.sh
+  460  cd dir2/
+  461  bash dymond.sh
+  462  cd dir2/
+  463  bash dymond.sh
+  464  cd dir2/
+  465  bash dymond.sh
+  466  cd dir2/
+  467  bash dymond.sh
+  468  cd dir2/
+  469  bash dymond.sh
+  470  cd dir2/
+  471  bash dymond.sh
+  472  cd dir2/
+  473  bash dymond.sh
+  474  cd dir2/
+  475  bash dymond.sh
+  476  cd dir2/
+  477  bash file1.sh
+  478  echo "1 2 3 4"|rev
+  479  echo "m a d a m"|rev
+  480  echo " D i p a l i"|rev
+  481  gedit revese.sh
+  482  bash revese.sh
+  483  gedit revese.sh
+  484  bash pyramid.sh
+  485  gedit pyramid.sh
+  486  cd dir2/
+  487  bash filesortdata.sh
+  488  bash sortfiledata.sh
+  489  cd ..
+  490  bash sortfiledata.sh
+  491  7
+  492  bash sortfiledata.sh
+  493  cd dir2/
+  494  gedit emp.txt
+  495  cat emp.txt
+  496  tee dip.txt
+  497  cat emp.txt
+  498  sort -n emp.txt
+  499  sort -k2 emp.txt
+  500  sort -nk3 emp.txt
+  501  sort -nk3 -k2 emp.txt
+  502  sort -n emp.txt
+  503  sort -k2 emp.txt
+  504  cat emp.txt
+  505  sort -k2 emp.txt
+  506  sort -nk3 emp.txt
+  507  sort -nr emp.txt
+  508  sort -rk2 emp.txt
+  509  cl
+  510  clear
+  511  ls -l
+  512  ls -l|sort -k5
+  513  ls -l|sort -k5 -n
+  514  ls -l|sort -nk5
+  515  ls -l|sort -nrk5
+  516  ls -l|sort -nrk5|head -n 5
+  517  man ps
+  518  ps -eo pid,comm,user | less
+  519  ps -eo pid,comm,user | tail -n 2|sort
+  520  ps -eo pid,comm,user | tail -n +2|sort
+  521  ps -eo pid,comm,user | tail -n +2|head -n 5
+  522  ps -eo pid,comm,user | tail -n +2|uniq 
+  523  ps -eo user | tail -n +2|uniq 
+  524  ps -eo user | tail -n +2|sort | uniq 
+  525  ps -eo user | tail -n +2|sort | uniq -c 
+  526  ls
+  527  find . -name "file"
+  528  cd ..
+  529  find ./dir2 -name "file"
+  530  cd dir2
+  531  ls
+  532  find . -name "filestr"
+  533  cd ..
+  534  ./dir2 -name "filestr"
+  535  find ./dir2 -name "filestr"
+  536  cd dir2
+  537  ls
+  538  find . -name "*.java"
+  539  find . -name "*.c"
+  540  figlet Dipali
+  541  figlit Dipali
+  542  clear
+  543  history
+  544  ps -eo user | tail -n +2 |sort |uniq -c
+  545  ls
+  546  find ./dir2 -name "*.java"
+  547  cd ..
+  548  find ./dir2 -name "*.java"
+  549  cd dir2/
+  550  find . -name "*.c"
+  551  cat pyramid.sh
+  552  cat pyramid.sh | wc
+  553  cat pyramid.sh | wc -w
+  554  cat pyramid.sh | wc -c
+  555  find . -type
+  556  find . -iname "*.C"
+  557  find . -name "*.C"
+  558  find . -name "*.JAVA"
+  559  find . -iname "*.JAVA"
+  560  find . -type file3
+  561  find . -type file3.java
+  562  ls
+  563  find . -type file
+  564  find . -type /java/file3.java
+  565  find . -type ../java/file3.java
+  566  find . -name 
+  567  find . -type d
+  568  ls
+  569  find . -type f -name "p*"
+  570  find . -type f | wc
+  571  find . -type f -exec ls -l {}\;
+  572  find . -type f - exec ls -l {}\;
+  573  find . -type f -exec ls -l {} \;
+  574  mkdir copyfile
+  575  ls
+  576  find . -type f -execls -l {} \;
+  577  find . -type f -exec ls -l {} \;
+  578  find . -type f -exec ls -l {} \; | sort -nr -k5
+  579  find . -type f -exec ls -l {} \; | sort -nr -k5 |head -n 5
+  580  find . -type f -exec ls -l {} \; | sort -nr -k5 |head -n 5|awk '{print $1,$2,$9}'
+  581  find . -type f -exec ls -l {} \; | sort -nr -k5 |head -n 5|awk '{print $9}'
+  582  gedit moveftodir.sh
+  583  bash moveftodir.sh
+  584  ls
+  585  ls copyfile
+  586  mv copyfile/*
+  587  mv copyfile/*.
+  588  mv copyfile/*
+  589  ls
+  590  mv dip.txt emp.txt cprog
+  591  ls
+  592  ls cprog/
+  593  mv cprog dir2
+  594  ls
+  595  ls cprog/
+  596  ls dir2/
+  597  mv dir2 cprog
+  598  ls cprog/
+  599  mv$(find . -type f -exec ls -l {} \; | sort -nr -k5 |head -n 5|awk '{print $9}')copyfile
+  600  mv $(find . -type f -exec ls -l {} \; | sort -nr -k5 |head -n 5|awk '{print $9}')copyfile
+  601  find . -type f -exec ls -l {} \; | sort -nr -k5 |head -n 5|awk '{print $9}'
+  602  rmdir copyfile
+  603  find . -type f -exec ls -l {} \; | sort -nr -k5 |head -n 5|awk '{print $9}'
+  604  mkdir largefile
+  605  bash moveftodir.sh
+  606  ls
+  607  ls largefile
+  608  mv largefile/*.
+  609  ls largefile
+  610  file:///home/dacstudent/dir2/copyfile/dymond.sh file:///home/dacstudent/dir2/copyfile/file1.sh file:///home/dacstudent/dir2/copyfile/palin.sh file:///home/dacstudent/dir2/copyfile/pyramid.sh file:///home/dacstudent/dir2/copyfile/r
+  611  ls largefile
+  612  cd ..
+  613  cd dir1
+  614  cd d1;
+  615  find . -type f -exec rm {}\;
+  616  find . -type f -exec rm {} \;
+  617  ls
+  618  cd ..
+  619  cd dir2;
+  620  find . -type f -empty
+  621  find . -type f -empty -exec ls -l {} \;
+  622  find . -type f  -exec ls -l {} \;
+  623  find . -type f -size 260c
+  624  find . -type f -size 260
+  625  find . -type f -size +260c
+  626  find . -type f -size -260c
+  627  find . -type f -size -n
+  628  find . -type f  -n
+  629  find . -type f -size -260b
+  630  find . -type f -size -260w
+  631  find . -mtime 2
+  632  find . -mtime 1
+  633  find . -mtime -2
+  634  find . -mtime +1
+  635  find . -mtime +2
+  636  find . -mtime -1
+  637  find . -mtime 50
+  638  find . -mmin 3
+  639  history
+  640  clear
+  641  find . -type f -mtime -2
+  642  bash prime.sh
+  643  cd ..
+  644  bash prime.sh
+  645  bash fact.sh
+  646  echo {1 ..10}
+  647  echo {1..10}
+  648  echo {100..110}d
+  649  for var in{100..105}
+  650  bash forloop.sh
+  651  cd dir2/
+  652  bash forloop.sh
+  653  cat > file
+  654  sort file
+  655  sort -n file
+  656  sort -nr file
+  657  cat > filestr
+  658  sort filestr
+  659  sort -r filestr
+  660  cd dir2/
+  661  bash pwd.sh
+  662  cd dir2/
+  663  bash pwd.sh
+  664  cd dir2/
+  665  bash pwd.sh
+  666  cd dir2/
+  667  bash pwd.sh
+  668  cd dir2/
+  669  bash pwd.sh
+  670  bash cespher.sh
+  671  bash pwd.sh
+  672  cd dir2/
+  673  bash cespher.sh
+  674  cd dir2/
+  675  bash cespher.sh
+  676  cd dir2/
+  677  bash cespher.sh
+  678  cd dir2/
+  679  bash comma.sh
+  680  cd dir2/
+  681  bash comma.sh
+  682  cd dir2/
+  683  bash calSwitch.sh
+  684  cd dir2\
+  685  ls
+  686  grep "for" forloop.sh
+  687  grep "[100-105]"forloop.sh
+  688  grep "[100-105]" forloop.sh
+  689  cat forloop.sh
+  690  grep "[0-9"] emp.txt
+  691  grep -c "[0-9"] emp.txt
+  692  grep -c "[0-9"] forloop.sh
+  693  grep -o "[0-9"] forloop.sh
+  694  cat forloop.sh
+  695  grep -o "[0-9"] forloop.sh |wc -l
+  696  grep -l "do" forloop.sh
+  697  find . -type f -exec grep -l "for" {} \;
+  698  grep "linux" forloop.sh
+  699  echo $?
+  700  grep "for" forloop.sh
+  701  echo $?
+  702  echo "abc@ 123" | grep "[0-9]";
+  703  echo $?
+  704  grep "[abc]" forloop.sh
+  705  grep "abc" forloop.sh
+  706  ls
+  707  whatis tr
+  708  man tr
+  709  cat forloop.sh | tr '[a-z]' '[A-Z];
+  710  ;
+  711  cat forloop.sh | tr '[a-z]' '[A-Z]'
+  712  cat forloop.sh
+  713  echo "abc" | tr '[a]' '[d]'
+  714  cat forloop.sh | tr -d '[0-9]'
+  715  echo *
+  716  ls | tr '\n' ','
+  717  ls
+  718  echo * | tr ' ' ' ,'
+  719  echo * | tr ' ' ', '
+  720  cat > file
+  721  cat file | tr 'linux' 'unix'
+  722  whatis sed
+  723  sed 's/linux/unix/' file
+  724  sed 's/linux/unix/g' file
+  725  sed 's/linux/unix/ig' file
+  726  sed 's/LINUX/unix/ig' file
+  727  man sed
+  728  cat > multirep
+  729  cat  multirep
+  730  sed -i 's/Unix/Window/g;s/bell lab/microsoft/g;s/dennis ritchie/Bill Gates/g' multirep 
+  731  cat  multirep
+  732  cat file
+  733  chmod 777 file
+  734  ls
+  735  ls -l
+  736  ls -l file
+  737  chmod 421 file
+  738  ls -l file
+  739  chmod 444 file
+  740  ls -l file
+  741  chmod 642 file
+  742  ls -l file
+  743  chmod 111 file
+  744  ls -l file
+  745  chown x file
+  746  sudo chown x file
+  747  sudo chown root file
+  748  ls -l file
+  749  e
+  750  sudo chgrp root file
+  751  ls -l file
+  752  sudo chown dacstudent:dacstudent file
+  753  ls -l file
+  754  chmod 664 file
+  755  ls -l file
+  756  chmod 6464 file
+  757  ls -l file
+  758  chmod 664 file
+  759  ls -l file
+  760  ls
+  761  ls -i file
+  762  whatis ln
+  763  whatis -i
+  764  ls -il file*
+  765  ls
+  766  ls -il f*
+  767  ls -il f* |awk '{print $10 $3}'
+  768  ls -il f* |awk '{print "file " $10 " link " $3}'
+  769  ls -il f* |awk '{print  $10 " has hard link " $3}'
+  770  pwd
+  771  ln -s
+  772  ln -s/home/dacstudent/dir2/file file_symlink
+  773  ln -s /home/dacstudent/dir2/file file_symlink
+  774  ls -il file*
+  775  cat  file_symlink
+  776  cat file
+  777  cat  file_symlink
+  778  cat >>file_symlink
+  779  cat file_symlink
+  780  cat file
+  781  ls -l file*
+  782  chmod 764 file_symlink
+  783  ls -l file*
+  784  ls -il file*
+  785  rm file
+  786  ls -il file*
+  787  cat file_symlink
+  788  cat f_link
+  789  mv f_link file_symlink
+  790  ls -il file*
+  791  cat file_symlink
+  792  ls
+  793  clear
+  794  ls'
+  795  ;
+  796  ls'
+  797  ;
+  798  clear
+  799  ls
+  800  cd cprog/
+  801  cd ..
+  802  cd cprog/
+  803  ls'
+  804  ;
+  805  ls
+  806  cd ..
+  807  whatis zip
+  808  whatis tar
+  809  cat file
+  810  histoty
+  811  history
+  812  ls
+  813  cat filestr
+  814  gzip filestr
+  815  cat filestr >> cprog/file1.c
+  816  cd cprog/
+  817  ls
+  818  cd ..
+  819  ls
+  820  zcat filestr.gz
+  821  gunzip filestr.gz
+  822  ls
+  823  cd cprog/
+  824  ls
+  825  cd ..
+  826  tar -cf cprog.tar* .c
+  827  tar -cf cprog.tar*.c
+  828  tar -cf cprog.tar *.c
+  829  ls
+  830  ls cprog/;
+  831  rm *.c
+  832  rm * .c
+  833  cd progs/
+  834  cd cprog/
+  835  rm * .c
+  836  rm *.c
+  837  cp file1.c file2.c
+  838  ls
+  839  cd ..
+  840  ls
+  841  tar -xf cprog.tar
+  842  ls
+  843  tar -xf cprog*.tar
+  844  tar -xf cprog.tar
+  845  ls
+  846  tar -xf cprog.tar
+  847  clear
+  848  ls
+  849  ls cprog/
+  850  ls cprog
+  851  tar -cf cprog.tat.* .c
+  852  tar -cf cprog.tar.* .c
+  853  tar -cf cprog.tar* .c
+  854  cd cprog/
+  855  touch file.c file1.c
+  856  ls
+  857  cd ..
+  858  tar -cf cprog.tar *c
+  859  tar -cf cprog.tar *.c
+  860  man tar
+  861  tar -cf cprog.tar*.c
+  862  cowardly
+  863  mkdir d1
+  864  cd d1/
+  865  cd d1..
+  866  cd ..
+  867  ls d1/
+  868  tar -cf d1.tar* .c
+  869  ls 
+  870  ls d1/
+  871  tar -cf d1.tar*.c
+  872  ls
+  873  tar -cf d1.tar *.c
+  874  tar cvf d1.tar *.c
+  875  tar cvf cprog.tar *.c
+  876  clear
+  877  ls
+  878  cd dir2/
+  879  ls
+  880  history
+  881  clear
+  882  cat file1.c > file3.c
+  883  sort file1.c > file3.c
+  884  clear
+  885  ls
+  886  touch file1.c
+  887  sort file1.c > file3.c
+  888  cat file1.c
+  889  cat >> file2.c
+  890  sort file2.c > file4.c
+  891  cat file2.c
+  892  cat file4.c
+  893  cat >> file2.c
+  894  ls
+  895  cat file3.c
+  896  cat file2.c
+  897  cat file4.c
+  898  comm file2.c file4.c
+  899  sort file2.c
+  900  sort file4.c
+  901  comm file2.c file4.c
+  902  clear
+  903  ls
+  904  cat file1.c
+  905  sort file1.c > file3.c
+  906  cat file1.c
+  907  cat file3.c
+  908  cat file2.c
+  909  rm file1.c
+  910  rm file2.c
+  911  rm file3.c
+  912  rm file4.c
+  913  ls
+  914  cat >> file1
+  915  cat file1
+  916  sort file1 > file3
+  917  cat file3
+  918  cat >> file2
+  919  sort file2 > file4
+  920  cat file4
+  921  cat >> file4
+  922  sort file4
+  923  cat file3
+  924  comm file3 file4
+  925  clear
+  926  ls
+  927  rm file1
+  928  rm file2
+  929  rm file3
+  930  rm file4
+  931  ls
+  932  sort file1 > file3
+  933  histoory
+  934  history
+  935  clear
+  936  cat >> file1
+  937  sort file1 > file3
+  938  cat file3
+  939  cat file1
+  940  cat >> file2
+  941  sort file2 > file4
+  942  cat file4
+  943  comm file3 file4
+  944  sort file1
+  945  sort file2
+  946  comm file1 file2
+  947  comm file3 file4
+  948  comm -2 file3 file4
+  949  comm -3 file3 file4
+  950  comm -1 -2 file3 file4
+  951  cp file2 file5 | head -n 3
+  952  cat file5
+  953  cp file2 file5 | head -n -3
+  954  cat file5
+  955  rm file5
+  956  cat file2
+  957  cp file2 file5 | head -n 2 file2
+  958  cat file5
+  959  cat file2
+  960  rm file5
+  961  cp file2 file5 | head -n 2 file5
+  962  touch file5
+  963  cp file2 file5 | head -n 2 file5
+  964  cat file5
+  965  ls
+  966  rm file5
+  967  cat file2
+  968  head -n +2
+  969  head -n +2 file2
+  970  head -n 2 file2
+  971  head -n -2 file2
+  972  history
+  973  ls
+  974  tar -cvf abc.tar file*
+  975  ls
+  976  tar -xvf abc.tar 
+  977  ls
+  978  tar -xvf abc.tar 
+  979  ls
+  980  zip xyz.zip file*
+  981  ls
+  982  unzip xyz.zip 
+  983  ls
+  984  diff file3 file4
+  985  diff file4 file3
+  986  cat file3
+  987  cat file4
+  988  diff file3 file4
+  989  diff file4 file3
+  990  diff file3 file4
+  991  clear
+  992  cat file1
+  993  cat file2
+  994  diff file1 file2
+  995  clear
+  996  diff file3 file4
+  997  cat file2
+  998  head -n +2 file2
+  999  head -n 2 file2
+ 1000  head -n -2 file2
+ 1001  file2 > cfile | head -n +2 file2
+ 1002  cat cfile
+ 1003  ls
+ 1004  file2 > cfile
+ 1005  cat file2
+ 1006  file2 > file5 
+ 1007  file1 > file5 
+ 1008  clear
+ 1009  cat file2 > file5
+ 1010  cat file5
+ 1011  ls
+ 1012  cat file2 > cfile | head 
+ 1013  cat cfile
+ 1014  rm cfile
+ 1015  cat file2 > cfile | head -n +2 cfile
+ 1016  cat cfile
+ 1017  head -n +2 cfile
+ 1018  head -n +2 file1 > file10
+ 1019  cat file10
+ 1020  cat file1
+ 1021  tail -n +2 file1
+ 1022  tail -n 2 file1
+ 1023  tail -n -2 file1
+ 1024  tail -n -2 file1 > copyf
+ 1025  cat copyf
+ 1026  echo "12345" | rev > revfile
+ 1027  cat revfile
+ 1028  echo "$file1" | rev > revfi
+ 1029  cat file1
+ 1030  cat revfi
+ 1031  cat file1 |rev 
+ 1032  cat file1 |rev >revfi
+ 1033  cat revfi
+ 1034  ls -il *file
+ 1035  ls
+ 1036  cd ..
+ 1037  ls
+ 1038  cd ..
+ 1039  ls
+ 1040  pwd
+ 1041  cd home/
+ 1042  cd dacstudent/
+ 1043  pwd
+ 1044  ls
+ 1045  find . -name "new*"
+ 1046  find . -name "f"
+ 1047  find . -name "f*"
+ 1048  clear
+ 1049  find . -name "f"
+ 1050  ls
+ 1051  find . -name "f*"
+ 1052  clear
+ 1053  cd dir2/
+ 1054  find . -type f -exec ls -l {} \;
+ 1055  find . -type f -size +10M
+ 1056  find . -type f -size +10c
+ 1057  ls
+ 1058  cd ..
+ 1059  ls
+ 1060  find . -type f "ls"
+ 1061  find . -type  "ls"
+ 1062  find . -maxdepth 1 -type f
+ 1063  ls
+ 1064  whatis maxdepth
+ 1065  man find
+ 1066  find . -type f "f*" |wc -c
+ 1067  cd dir2/
+ 1068  bash calSwitch.sh
+ 1069  bash calSwitch.sh 12 23
+ 1070  bash calSwitch.sh 15 23
+ 1071  bash calSwitch.sh 15 2
+ 1072  bash calSwitch.sh 15 3
+ 1073  bash calSwitch.sh 15 3 12
+ 1074  bash calSwitch.sh
+ 1075  bash calSwitch.sh 1 2
+ 1076  bash calSwitch.sh 45 56
+ 1077  bash calSwitch.sh 45 
+ 1078  history
+ 1079  clear
+ 1080  ls > list
+ 1081  ls
+ 1082  pwd
+ 1083  whatis pwd
+ 1084  whatis ls
+ 1085  whatis cd
+ 1086  cd .
+ 1087  pwd
+ 1088  cd ..
+ 1089  pwd
+ 1090  cd ..
+ 1091  pwd
+ 1092  cd home/dacstudent/
+ 1093  pwd
+ 1094  clear
+ 1095  cd Downloads/
+ 1096  cd ..
+ 1097  clear
+ 1098  ls
+ 1099  mkdir dir
+ 1100  whatis mkdir
+ 1101  mkdir dir4 dir5
+ 1102  cd dir
+ 1103  cd ..
+ 1104  ls
+ 1105  cd ../dir2
+ 1106  touch files
+ 1107  ls
+ 1108  cat files
+ 1109  cat > files
+ 1110  cat >> files
+ 1111  cat files
+ 1112  cp files files2
+ 1113  cat files2
+ 1114  cp files2 ../dir
+ 1115  ls
+ 1116  pwd
+ 1117  cp files2 ../dir3
+ 1118  pstree
+ 1119  whatis pstree
+ 1120  cat /etc/*-release
+ 1121  clear
+ 1122  history
+

@@ -1,0 +1,459 @@
+
+#-----------print welcome message with current userid
+#var=$(id -u dacstudent);
+#echo " Welcome $var";
+
+#------------print current date & current month calender
+#echo "$(date)";
+#echo "$(cal)";
+
+
+#------------print current userid & his home directory
+#var=$(id -u dacstudent);
+#echo "$var $(pwd)";
+
+
+#-------------accept file name & print its contents
+#echo "Enter file name:";
+#read filenm;
+#echo "$(cat $filenm)";
+
+
+#-----------accept directory name & list its contents
+#echo "Enter directory name:";
+#read dirnm echo
+#echo "$(ls $dirnm)";
+   
+
+
+#----------accept 2 numbers & find which is greater
+#echo "Enter first number:";
+#read a;
+#echo "Enter second number:";
+#read b;
+#if [ $a -gt $b ]
+#then
+#	echo "$a is greater";
+#fi
+#if [ $b -gt $a ]
+#then
+#	echo "$b is greater";
+#fi
+
+
+#---------accept file name & print its information
+#echo "Enter file name:";
+#read filenm ;
+#if [ -e $filenm ]
+#then
+#	echo "$filenm exist";
+#else
+#	echo "$filenm doesn't exist";
+#fi
+#if [ -r $filenm ]
+#then
+#	echo "$filenm has read permission";
+#else
+#	echo "$filenm doesn't have read permission";
+#fi
+#if [ -w $filenm ]
+#then
+#	echo "$filenm has write permission";
+#else
+#	echo "$filenm doesn't have write permission";
+#fi
+#if [ -x $filenm ]
+#then
+#	echo "$filenm has execute permission";
+#else
+#	echo "$filenm doesn't have execute permission";
+#fi
+
+
+
+#-----------menu_driven program for add, mul, div, mul
+#echo "Enter first number : ";
+#read a;
+#echo "Enter second number : ";
+#read b;
+#echo "1:Add 2:Sub 3:Mul 4:Div";
+#echo "Enter choice : ";
+#read choice;
+#if [ $choice -eq 1 ]
+#then 
+#	echo "Addition : $(($a+$b))";
+#fi
+#if [ $choice -eq 2 ]
+#then 
+#	echo "Subtraction : $(($a-$b))";
+#fi
+#if [ $choice -eq 3 ]
+#then 
+#	echo "Multiplication : $(($a*$b))";
+#fi
+#if [ $choice -eq 4 ]
+#then 
+#	echo "Division : $(($a/$b))";
+#fi
+
+
+
+#------accept 3 numbers & print them in descending order
+#if [ -e tempfile ]
+#then
+#	rm tempfile;
+#fi
+#echo "Enter first number : ";
+#read a;
+#echo "Enter second number : ";
+#read b;
+#echo "Enter third number : ";
+#read c;
+#echo "$a" >> tempfile;
+#echo "$b" >> tempfile;
+#echo "$c" >> tempfile;
+#sort -n -r tempfile;
+
+
+#-------------palindrome
+#echo "enter string : ";
+#read string; 
+#var=$(echo "$string" | rev);
+#if [ $var == $string ]
+#then 
+#	echo "string is palindrome";	
+#else
+#	echo "string is not palindrome";
+#fi
+
+
+#--------------pyramid of *
+#for((row=0;row<10;row++))
+#do
+#	for((space=10;space>row;space--))
+#	do 
+#		echo -n " ";
+#	done
+#       for((star=1;star<=row;star++))
+#	do
+#		echo -n "* ";
+#	done
+#echo "";
+#done
+
+
+
+#--------------diamond of *
+#for((row=0;row<5;row++))
+#do
+#	for((space=5;space>row;space--))
+#	do 
+#		echo -n " ";
+#	done
+#        for((star=1;star<=row;star++))
+#	do
+#		echo -n "* ";
+#	done
+#echo "";
+#done
+#for((row=0;row<5;row++))
+#do
+#	for((space=0;space<row;space++))
+#	do
+#		echo -n " ";
+#	done
+#	for((star=4;star>=row;star--))
+#	do 
+#		echo -n "* ";
+#	done
+#echo "";
+#done
+
+
+
+#-------------prime numbers between 1 to 100
+#for((i=1;i<=100;i++))
+#do
+#	for((c=2;c<i;c++))
+#	do
+#		var=$(($i%$c));
+# 		if [ $var -eq 0 ]
+#		then 
+#			temp=0;
+#			break;
+#		else
+#			temp=1;
+#		fi
+#	done
+#	if [ $temp -eq 1 ]
+#	then
+#		echo -n "  $i";
+#	fi
+#done
+#echo "";
+
+
+
+#---------find factorial of given number
+#echo "Enter number : ";
+#read a;
+#i=1;fact=1;
+#for((i=a;i>=1;i--))
+#do
+#	fact=$(($fact*$i));
+#done
+#echo "Factorial of $a : $fact";
+
+
+
+#------------count files accoring to extension
+#echo "Enter directory name : ";
+#read dir;
+#sh=$(find . -name "*.sh" | wc -l);
+#echo ".sh : $sh";
+#java=$(find . -name "*.java" | wc -l);
+#echo ".java : $java";
+#c=$(find . -name "*.c" | wc -l;
+#echo ".c : $c";
+
+
+
+#---------count the files with extensions & print count according to extensions
+#find . -type f | sed -n 's/..*\.//p' | sort | uniq -c
+
+
+
+
+
+#---------menu driven a.fact b.odd/even c.prime nos d.armstrong number
+
+#echo "Enter number";
+#read a;
+
+#echo "1.fact 2.odd/even 3.prime number 4.armstrong number";
+#echo "Enter choice";
+#read choice;
+#fact=1;
+#case $choice in
+#	1)
+#	  for((i=a;i>=1;i--))
+#	  do 
+#		fact=$(($fact * $i));
+#		echo "factorial of $a : $fact";;
+#	
+#	2)if [ $(($a % 2)) -eq 0 ]
+#	  then 
+#		echo "$a is even number";
+#	  else
+#		echo "$a is odd number";
+#	   fi;;
+ 
+
+#	3)temp=0;
+#	   for((i=2;i<a;i++))
+#	   do
+#		var=$(($a % $i));
+#		if [ $var -eq 0 ]
+#		then 
+#		temp=1;
+#		break;
+#     	    done
+#     		if [ $temp -eq 0 ]
+#		then 		
+#	           echo "Prime number";
+#		 else
+#		   echo "Not prime number";
+#		fi;;
+	
+#	4)
+#		temp=$a; 
+#		while [ $a -gt 0 ]
+#	   do
+#	     mod=$(($a % 10));
+#	     a=$(($a / 10));
+ #            res=$(($res+$(($mod * $mod * $mod))));
+#	    done
+#		echo "$res";	
+#                 if [ $res -eq $temp ]
+#                then
+#               	 	echo "$temp is armstrong number";
+#                 else
+#                      echo "$temp not armstrong number";
+#                 fi;;
+#      *)echo "Default";;
+      
+#      esac
+
+
+
+#-----------pyramid of *
+#echo "Enter choice";
+#read choice;
+#case $choice in
+#	1)for((row=0;row<10;row++))
+#do
+#	for((space=10;space>row;space--))
+#	do 
+#		echo -n " ";
+#	done
+#       for((star=1;star<=row;star++))
+#	do
+#		echo -n "* ";
+#	done
+#echo "";
+#done
+
+
+
+
+#-------------encryption & decryption
+#echo "Enter string : ";
+#read string;
+#echo "Encrypted data : ";
+#echo "$string" | tr '[a-z]' '[d-zabc]';
+#var=$(echo "$string" | tr '[a-z]' '[d-zabc]');
+#echo "Decrypted data : ";
+#echo "$var" | tr '[d-zabc]' '[a-z]';
+
+
+
+#------------Interchange the strings
+
+#cat filem | sed 's/Unix/Windows/ig' | sed 's/Bell lab/Microsoft/ig' | sed 's/Dennis ritchie/Bill Gates/ig'
+
+
+#---------validate password
+#echo "Enter password";
+#read p;
+#echo "$p" | grep "^[A-Z]" | grep "[a-z]" | grep "['@#$%^&*']" | grep "[0-9]";
+#if [ $? -eq 0 ]
+#then 
+#	echo "$p is valid";
+#else
+#	echo "$p is invalid";
+#fi
+
+
+#-------accept dir name & word from user to search & print all the files from that dir
+#-------which contains given word
+#echo "Enter word for search :";
+#read w;
+#find . -type f -exec grep -l "$w" {} \;
+
+
+
+#------------------copy contents of one file in reverse order in another file
+
+#tac f1.c >> temp.c
+
+
+
+#--------------copy 1st 2 lines from one file to another file
+
+#cat f1.c | head -n 2  >> f2.c
+
+
+
+#------------copy last lines from one file to another file
+#cat f1.c | tail -n 2  >> f2.c
+
+
+
+
+#----------3)create zip file & display the contents on console
+#zip cfiles.zip *.c
+#ls
+#cat cfiles.zip
+#unzip cfiles.zip
+
+
+
+
+
+
+#-------------create hard link
+# ln f1.c filelink
+#ls -il f*
+
+
+#-----create soft link
+#ln -s /home/dacstudent/dir2/f1.c filesymlink
+#cat filesymlink
+
+#-----------------list the number of links created on particular file
+#ls -il f* | awk '{print " file : " $10 " has  link : " $3}'
+
+
+
+#-------------list the files & directories with their respective inodes
+# ls -i .
+
+#----------change mode of particular file
+#chmod 777 f1.c
+#ls -l f1.c
+
+#------change owner of particular file
+
+#sudo chown root f1.c
+#ls -l f1.c
+
+#--------------to search files starts with 'hello' in current directory
+#find . -type f -name "hello*"
+
+
+#-----------find particular file in directory
+#find . -type f -name f1.c
+
+#----------------search files whose size is greater than 5kb
+#find . -type f -size +5
+
+
+#----------search regular file in directory
+#find . -type f
+
+
+#------------command to search particular word in files
+#find . -type f -exec grep -l "for" {} \;
+
+
+
+#------------command to search how many times word occurs
+#grep -c "for" first.sh 
+
+
+#-------------command to print number of lines of particular file
+#wc first.sh
+
+
+
+#---------------print the contents of file in sorted order(numbers in file)
+#sort -n  temp1.c      //ascending order
+#sort -n -r temp1.c	//descending order
+
+
+#------------display currently runniing in system
+#ps -e
+
+
+
+#---------print process tree
+#pstree
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

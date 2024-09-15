@@ -1,0 +1,17 @@
+
+echo "Enter file name"
+read f;
+
+echo "Enter first number ";
+read s;
+
+echo "Enter Second number ";
+read e;
+
+#sed -n $s,$n\p $f | cat > data
+
+#cat data
+
+echo ""
+head -n $e $f | tail -n +$s
+

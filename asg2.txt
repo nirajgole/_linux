@@ -1,0 +1,4 @@
+#write a shell script to print current userid and current month calender
+
+echo "Current Date: $(date) ";
+echo "Current Month Calender:  $(cal)";

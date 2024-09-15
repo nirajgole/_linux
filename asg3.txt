@@ -1,0 +1,4 @@
+#print current userid and his home directory.
+
+echo "$(whoami)"
+echo "$(pwd)"
